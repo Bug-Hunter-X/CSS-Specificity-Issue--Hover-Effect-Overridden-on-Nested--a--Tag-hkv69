@@ -1,0 +1,1 @@
+The following CSS code snippet demonstrates an issue where the hover effect on the nested `<a>` tag within the `<li>` element does not work as expected. The hover style is overridden by the parent `<li>` element's style, preventing the change in color upon hovering over the nested `<a>` tag.  This happens because of CSS specificity rules.
