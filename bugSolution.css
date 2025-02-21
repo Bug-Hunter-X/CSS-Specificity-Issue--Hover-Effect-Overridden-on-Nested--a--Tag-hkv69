@@ -1,0 +1,10 @@
+/* bugSolution.css */
+li a:hover {
+  color: blue !important; /* Solution using !important (generally discouraged) */
+}
+
+/* Or, a more preferred solution, using more specific selector: */
+li:hover > a {
+  color: blue;
+}
+/* This targets a direct child <a> element of a hovered <li> and avoids the !important declaration */
